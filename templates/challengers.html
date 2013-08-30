@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html>
+    <head>		
+        <title>Wargame-Register</title>	    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="refresh" content="10;url='challengers.html'" />
+		<link rel="stylesheet" href="../static/bootstrap.css" />
+		<link rel="stylesheet" href="../static/bootstrap.min.css" />		
+		<link rel="stylesheet" href="../static/style.css" />		
+    </head>
+	<body>
+        <div id="arrangerule1">
+            <p><img src="../static/images/header.gif" alt="header"></p>					        				
+				<div id="arrangerule5">
+				    <p>
+				    <button type="button" class="btn btn-info" onclick="self.location.href='/'">Challs</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/challengers.html'">Challengers</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/register.html'">Register</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/login.html'">Login</button>
+					<span id="cond">{{condition}}</span><a href="logout.html">{{logstate}}</a>															
+					<br />
+					<br />
+					<div class="alert alert-danger"><strong>*Refrsh this page every 10 seconds!!</strong></div>					
+					<p>
+					
+					<table class="table table-striped table-hover">
+					    <tr>
+						<th width="40">#</th>
+						<th width="150">Team</th>
+						<th width="125">Hero 1</th>
+						<th width="125">Hero 2</th>
+						<th width="125">Hero 3</th>
+						<th width="80">Pts</th>
+						<th width="40">Passed</th>
+						<th>Time</th>
+						</tr>
+						<tr>
+						<td>1</td>
+						<td>{{teamname_1}}</td>
+						<td>{{teammember1_1}}</td>
+						<td>{{teammember2_1}}</td>
+						<td>{{teammember3_1}}</td>
+						<td>{{points_1}}</td>
+						<td>{{passed_1}}</td>
+						<td>{{time_1}}</td>
+						</tr>
+						<tr>
+						<td>2</td>
+						<td>{{teamname_2}}</td>
+						<td>{{teammember1_2}}</td>
+						<td>{{teammember2_2}}</td>
+						<td>{{teammember3_2}}</td>
+						<td>{{points_2}}</td>
+						<td>{{passed_2}}</td>
+						<td>{{time_2}}</td>
+						</tr>
+						<tr>
+						<td>3</td>
+						<td>{{teamname_3}}</td>
+						<td>{{teammember1_3}}</td>
+						<td>{{teammember2_3}}</td>
+						<td>{{teammember3_3}}</td>
+						<td>{{points_3}}</td>
+						<td>{{passed_3}}</td>
+						<td>{{time_3}}</td>
+						</tr>
+						<tr>
+						<td>4</td>
+						<td>{{teamname_4}}</td>
+						<td>{{teammember1_4}}</td>
+						<td>{{teammember2_4}}</td>
+						<td>{{teammember3_4}}</td>
+						<td>{{points_4}}</td>
+						<td>{{passed_4}}</td>
+						<td>{{time_4}}</td>
+						</tr>
+						<tr>
+						<td>5</td>
+						<td>{{teamname_5}}</td>
+						<td>{{teammember1_5}}</td>
+						<td>{{teammember2_5}}</td>
+						<td>{{teammember3_5}}</td>
+						<td>{{points_5}}</td>
+						<td>{{passed_5}}</td>
+						<td>{{time_5}}</td>
+						</tr>
+						<tr>
+						<td>6</td>
+						<td>{{teamname_6}}</td>
+						<td>{{teammember1_6}}</td>
+						<td>{{teammember2_6}}</td>
+						<td>{{teammember3_6}}</td>
+						<td>{{points_6}}</td>
+						<td>{{passed_6}}</td>
+						<td>{{time_6}}</td>
+						</tr>
+						<tr>
+						<td>7</td>
+						<td>{{teamname_7}}</td>
+						<td>{{teammember1_7}}</td>
+						<td>{{teammember2_7}}</td>
+						<td>{{teammember3_7}}</td>
+						<td>{{points_7}}</td>
+						<td>{{passed_7}}</td>
+						<td>{{time_7}}</td>
+						</tr>
+						<tr>
+						<td>8</td>
+						<td>{{teamname_8}}</td>
+						<td>{{teammember1_8}}</td>
+						<td>{{teammember2_8}}</td>
+						<td>{{teammember3_8}}</td>
+						<td>{{points_8}}</td>
+						<td>{{passed_8}}</td>
+						<td>{{time_8}}</td>
+						</tr>
+						<tr>
+						<td>9</td>
+						<td>{{teamname_9}}</td>
+						<td>{{teammember1_9}}</td>
+						<td>{{teammember2_9}}</td>
+						<td>{{teammember3_9}}</td>
+						<td>{{points_9}}</td>
+						<td>{{passed_9}}</td>
+						<td>{{time_9}}</td>
+						</tr>
+						<tr>
+						<td>10</td>
+						<td>{{teamname_10}}</td>
+						<td>{{teammember1_10}}</td>
+						<td>{{teammember2_10}}</td>
+						<td>{{teammember3_10}}</td>
+						<td>{{points_10}}</td>
+						<td>{{passed_10}}</td>
+						<td>{{time_10}}</td>
+						</tr>
+						<tr>
+						<td>11</td>
+						<td>{{teamname_11}}</td>
+						<td>{{teammember1_11}}</td>
+						<td>{{teammember2_11}}</td>
+						<td>{{teammember3_11}}</td>
+						<td>{{points_11}}</td>
+						<td>{{passed_11}}</td>
+						<td>{{time_11}}</td>
+						</tr>
+						<tr>
+						<td>12</td>
+						<td>{{teamname_12}}</td>
+						<td>{{teammember1_12}}</td>
+						<td>{{teammember2_12}}</td>
+						<td>{{teammember3_12}}</td>
+						<td>{{points_12}}</td>
+						<td>{{passed_12}}</td>
+						<td>{{time_12}}</td>
+						</tr>
+						<tr>
+						<td>13</td>
+						<td>{{teamname_13}}</td>
+						<td>{{teammember1_13}}</td>
+						<td>{{teammember2_13}}</td>
+						<td>{{teammember3_13}}</td>
+						<td>{{points_13}}</td>
+						<td>{{passed_13}}</td>
+						<td>{{time_13}}</td>
+						</tr>
+						<tr>
+						<td>14</td>
+						<td>{{teamname_14}}</td>
+						<td>{{teammember1_14}}</td>
+						<td>{{teammember2_14}}</td>
+						<td>{{teammember3_14}}</td>
+						<td>{{points_14}}</td>
+						<td>{{passed_14}}</td>
+						<td>{{time_14}}</td>
+						</tr>
+						<tr>
+						<td>15</td>
+						<td>{{teamname_15}}</td>
+						<td>{{teammember1_15}}</td>
+						<td>{{teammember2_15}}</td>
+						<td>{{teammember3_15}}</td>
+						<td>{{points_15}}</td>
+						<td>{{passed_15}}</td>
+						<td>{{time_15}}</td>
+						</tr>
+						<tr>
+						<td>16</td>
+						<td>{{teamname_16}}</td>
+						<td>{{teammember1_16}}</td>
+						<td>{{teammember2_16}}</td>
+						<td>{{teammember3_16}}</td>
+						<td>{{points_16}}</td>
+						<td>{{passed_16}}</td>
+						<td>{{time_16}}</td>
+						</tr>
+						<tr>
+						<td>17</td>
+						<td>{{teamname_17}}</td>
+						<td>{{teammember1_17}}</td>
+						<td>{{teammember2_17}}</td>
+						<td>{{teammember3_17}}</td>
+						<td>{{points_17}}</td>
+						<td>{{passed_17}}</td>
+						<td>{{time_17}}</td>
+						</tr>
+						<tr>
+						<td>18</td>
+						<td>{{teamname_18}}</td>
+						<td>{{teammember1_18}}</td>
+						<td>{{teammember2_18}}</td>
+						<td>{{teammember3_18}}</td>
+						<td>{{points_18}}</td>
+						<td>{{passed_18}}</td>
+						<td>{{time_18}}</td>
+						</tr>
+						<tr>
+						<td>19</td>
+						<td>{{teamname_19}}</td>
+						<td>{{teammember1_19}}</td>
+						<td>{{teammember2_19}}</td>
+						<td>{{teammember3_19}}</td>
+						<td>{{points_19}}</td>
+						<td>{{passed_19}}</td>
+						<td>{{time_19}}</td>
+						</tr>
+						<tr>
+						<td>20</td>
+						<td>{{teamname_20}}</td>
+						<td>{{teammember1_20}}</td>
+						<td>{{teammember2_20}}</td>
+						<td>{{teammember3_20}}</td>
+						<td>{{points_20}}</td>
+						<td>{{passed_20}}</td>
+						<td>{{time_20}}</td>
+						</tr>
+					</table>
+					</p>
+				    </p>
+			    </div>
+			<p><img src="../static/images/footer.gif" alt="footer"></p>	
+	    </div>
+    </body>   
+</html>

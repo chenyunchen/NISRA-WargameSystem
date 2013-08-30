@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+<allenown>Security!!</allenown>
+***************AAA***************lllllll*lllllll********************************************OOOOOOOOO****************************************************************
+**************A:::A**************l:::::l*l:::::l******************************************OO:::::::::OO**************************************************************
+*************A:::::A*************l:::::l*l:::::l****************************************OO:::::::::::::OO************************************************************
+************A:::::::A************l:::::l*l:::::l***************************************O:::::::OOO:::::::O***********************************************************
+***********A:::::::::A************l::::l**l::::l*****eeeeeeeeeeee****nnnn**nnnnnnnn****O::::::O***O::::::Owwwwwww***********wwwww***********wwwwwwwnnnn**nnnnnnnn****
+**********A:::::A:::::A***********l::::l**l::::l***ee::::::::::::ee**n:::nn::::::::nn**O:::::O*****O:::::O*w:::::w*********w:::::w*********w:::::w*n:::nn::::::::nn**
+*********A:::::A*A:::::A**********l::::l**l::::l**e::::::eeeee:::::een::::::::::::::nn*O:::::O*****O:::::O**w:::::w*******w:::::::w*******w:::::w**n::::::::::::::nn*
+********A:::::A***A:::::A*********l::::l**l::::l*e::::::e*****e:::::enn:::::::::::::::nO:::::O*****O:::::O***w:::::w*****w:::::::::w*****w:::::w***nn:::::::::::::::n
+*******A:::::A*****A:::::A********l::::l**l::::l*e:::::::eeeee::::::e**n:::::nnnn:::::nO:::::O*****O:::::O****w:::::w***w:::::w:::::w***w:::::w******n:::::nnnn:::::n
+******A:::::AAAAAAAAA:::::A*******l::::l**l::::l*e:::::::::::::::::e***n::::n****n::::nO:::::O*****O:::::O*****w:::::w*w:::::w*w:::::w*w:::::w*******n::::n****n::::n
+*****A:::::::::::::::::::::A******l::::l**l::::l*e::::::eeeeeeeeeee****n::::n****n::::nO:::::O*****O:::::O******w:::::w:::::w***w:::::w:::::w********n::::n****n::::n
+****A:::::AAAAAAAAAAAAA:::::A*****l::::l**l::::l*e:::::::e*************n::::n****n::::nO::::::O***O::::::O*******w:::::::::w*****w:::::::::w*********n::::n****n::::n
+***A:::::A*************A:::::A***l::::::ll::::::le::::::::e************n::::n****n::::nO:::::::OOO:::::::O********w:::::::w*******w:::::::w**********n::::n****n::::n
+**A:::::A***************A:::::A**l::::::ll::::::l*e::::::::eeeeeeee****n::::n****n::::n*OO:::::::::::::OO**********w:::::w*********w:::::w***********n::::n****n::::n
+*A:::::A*****************A:::::A*l::::::ll::::::l**ee:::::::::::::e****n::::n****n::::n***OO:::::::::OO*************w:::w***********w:::w************n::::n****n::::n
+AAAAAAA*******************AAAAAAAllllllllllllllll****eeeeeeeeeeeeee****nnnnnn****nnnnnn*****OOOOOOOOO****************www*************www*************nnnnnn****nnnnnn
+-->
+<html>
+    <head>
+        <title>{{page_title}}</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="{{ static_url("bootstrap.css") }}" />
+		<link rel="stylesheet" href="{{ static_url("bootstrap.min.css") }}" />		
+		<link rel="stylesheet" href="{{ static_url("style.css") }}" />
+    </head>
+	<body>
+        <div id="arrangerule1">
+            <p><img src="../static/images/header.gif" alt="header"></p>				
+	        	<div id="arrangerule2">
+			        <p>
+					    {% block arrange2 %}						
+                        {% end %}
+						<span id="answer">
+						{% block answer %}
+						{% end %}
+						</span>
+				    <p>
+			    </div>
+				<div id="arrangerule3">
+				    <p>
+				    <button type="button" class="btn btn-info" onclick="self.location.href='/'">Challs</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/challengers.html'">Challengers</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/register.html'">Register</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/login.html'">Login</button>
+					<span id="cond">{{condition}}</span><a href="logout.html">{{logstate}}</a>		
+			        <table id="tablecolor" summary="This table is about the wargame question!">					    
+						<caption>WarGame Challenge</caption>
+						<tr>
+						    <th><button type="button" class="btn btn-primary btn-lg" style="width: 130px;height: 70px">Roulette</button></th>
+							<th><button type="button" class="btn btn-primary btn-lg" style="width: 130px;height: 70px">Web<br />Security</button></th>
+							<th><button type="button" class="btn btn-primary btn-lg" style="width: 130px;height: 70px">Binary<br />Processing</button></th>
+							<th><button type="button" class="btn btn-primary btn-lg" style="width: 130px;height: 70px">Forensics</button></th>
+							<th><button type="button" class="btn btn-primary btn-lg" style="width: 130px;height: 70px">Pwn3d</button></th>								
+						</tr>
+						<tr>
+						    <td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='R1.html'">100</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='W1.html'">100</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='B1.html'">100</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='F1.html'">100</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='P1.html'">100</button></td>
+						</tr>
+						<tr>
+						    <td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='R2.html'">200</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='W2.html'">200</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='B2.html'">200</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='F2.html'">200</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='P2.html'">200</button></td>
+						</tr>
+						<tr>
+						    <td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='R3.html'">300</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='W3.html'">300</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='B3.html'">300</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='F3.html'">300</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='P3.html'">300</button></td>
+						</tr>
+						<tr>
+						    <td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='R4.html'">400</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='W4.html'">400</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='B4.html'">400</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='F4.html'">400</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='P4.html'">400</button></td>
+						</tr>
+						<tr>
+						    <td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='R5.html'">500</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='W5.html'">500</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='B5.html'">500</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='F5.html'">500</button></td>
+							<td><button type="button" class="btn btn-danger" style="width: 130px;height: 70px" onclick="self.location.href='P5.html'">500</button></td>
+						</tr>
+					</table>
+					<br />
+					<p>									
+			    </div>
+			<p><img src="../static/images/footer.gif" alt="footer"></p>	
+	    </div>
+    </body>   
+</html>

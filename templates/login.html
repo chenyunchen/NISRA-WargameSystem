@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>		
+        <title>Wargame-Register</title>	    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="../static/bootstrap.css" />
+		<link rel="stylesheet" href="../static/bootstrap.min.css" />		
+		<link rel="stylesheet" href="../static/style.css" />		
+    </head>
+	<body>
+        <div id="arrangerule1">
+            <p><img src="../static/images/header.gif" alt="header"></p>					        				
+				<div id="arrangerule5">
+					<p>
+				    <button type="button" class="btn btn-info" onclick="self.location.href='/'">Challs</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/challengers.html'">Challengers</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/register.html'">Register</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/login.html'">Login</button>
+					<span id="cond">{{condition}}</span><a href="logout.html">{{logstate}}</a>														
+					<br />
+					<br />
+					<br />
+					<br />
+					<p>
+					<div id="login">
+						<div class="panel panel-primary" style="width:500px">
+						  <div class="panel-heading">
+							<h3 class="panel-title">Team Login</h3>
+						  </div>
+						  <div class="panel-body">
+							<form class="form-horizontal" role="form" action="loginhandler.html" method="POST">
+							  <div class="form-group">
+								<label for="inputEmail1" class="col-lg-2 control-label">Username</label>
+								<div class="col-lg-10">
+								  <input type="text" class="form-control" id="inputEmail1" placeholder="Username" style="width:380px" name="username">
+								</div>
+							  </div>
+							  <div class="form-group">
+								<label for="inputPassword1" class="col-lg-2 control-label">Password</label>
+								<div class="col-lg-10">
+								  <input type="password" class="form-control" id="inputPassword1" placeholder="Password" style="width:380px" name="password">
+								</div>
+							  </div>
+							  <div class="form-group">
+								<div class="col-lg-offset-2 col-lg-10">
+								  <button type="submit" class="btn btn-default" {{buttonstate}}>Sign in</button>
+								</div>
+							  </div>
+							</form>
+						  </div>
+						</div>						
+					</div>
+					</p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					</p>
+			    </div>
+			<p><img src="../static/images/footer.gif" alt="footer"></p>	
+	    </div>
+    </body>   
+</html>

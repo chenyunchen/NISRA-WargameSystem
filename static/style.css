@@ -1,0 +1,80 @@
+body
+{
+    background-color: #696969;
+}
+#arrangerule1
+{
+	width: 1000px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;	
+}
+#arrangerule2
+{	
+	width: 200px;	
+	float: right;
+}
+#arrangerule3
+{
+    background-color: #c0c0c0;
+}
+table
+{
+    margin-left: auto;
+	margin-right: auto;	
+	border-collapse: collapse;	
+}
+td,th
+{    
+	padding: 5px 5px 5px 5px;
+}
+caption,#points
+{
+	font-weight: bold;
+	font-size: XX-large;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: red;	
+}
+#answer
+{
+	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #00bfff;
+}
+#arrangerule4
+{	
+	width: 600px;	
+	float: right;
+}
+#tablecolor
+{
+	background-color: black;
+}
+#registercolor
+{
+	font-weight: bold;
+	color: red;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+#arrangerule5
+{
+	background-color: #c0c0c0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+#login
+{
+	margin-left: 250px;
+}
+#test
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+#cond
+{
+	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: red;	
+}

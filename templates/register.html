@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>		
+        <title>Wargame-Register</title>	    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="../static/bootstrap.css" />
+		<link rel="stylesheet" href="../static/bootstrap.min.css" />		
+		<link rel="stylesheet" href="../static/style.css" />		
+    </head>
+	<body>
+        <div id="arrangerule1">
+            <p><img src="../static/images/header.gif" alt="header"></p>					        				
+				<div id="arrangerule3">
+					<p>
+				    <button type="button" class="btn btn-info" onclick="self.location.href='/'">Challs</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/challengers.html'">Challengers</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/register.html'">Register</button>
+					<button type="button" class="btn btn-info" onclick="self.location.href='/login.html'">Login</button>
+					<span id="cond">{{condition}}</span><a href="logout.html">{{logstate}}</a>										
+					<div id="arrangerule4">					
+			        <p>
+					<img src="../static/images/nisra.gif" alt="nisra">
+				    <p>
+					</div>					
+					<br />
+					<div id="registercolor">
+					<p>
+					{{message}}
+					</p>
+					</div>
+					<form class="form-inline" action="registerhandler.html" method="POST">
+					  <span class="label label-success">Team Name</span>					  
+					  <br />
+					  <input type="text" class="form-control" placeholder="*Team Name" style="width:200px" name="teamname">
+					  <br />
+					  <br />
+					  <span class="label label-success">Team Member</span>
+					  <br />
+					  <input type="text" class="form-control" placeholder="*Team Member 1(Captain)" style="width:200px" name="teammember1">
+					  <br />
+					  <input type="text" class="form-control" placeholder="Team Member 2" style="width:200px" name="teammember2">
+					  <br />
+					  <input type="text" class="form-control" placeholder="Team Member 3" style="width:200px" name="teammember3">
+					  <br />
+					  <br />
+					  <span class="label label-success">Username</span>
+					  <br />
+					  <input type="text" class="form-control" placeholder="*Username" style="width:200px" name="username">
+					  <br />
+					  <br />
+					  <span class="label label-success">Password</span>
+					  <br />
+					  <input type="password" class="form-control" placeholder="*Password" style="width:200px" name="password">
+					  <br />
+					  <br />
+					  <span class="label label-success">Confirm Password</span>
+					  <br />
+					  <input type="password" class="form-control" placeholder="*Confirm Password" style="width:200px" name="confirmpassword">					
+					  <br />					  
+					  <br />
+					  <br />
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					</p>										
+			    </div>
+			<p><img src="../static/images/footer.gif" alt="footer"></p>	
+	    </div>
+    </body>   
+</html>
